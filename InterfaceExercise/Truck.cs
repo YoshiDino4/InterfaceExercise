@@ -1,7 +1,7 @@
 using System;
 namespace InterfaceExercise;
 
-public class Truck
+public class Truck : IVehicle , ICompany
 {
     public int NumberOfWheels { get; set; }
     public string Color { get; set; }
