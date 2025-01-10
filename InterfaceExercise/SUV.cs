@@ -5,6 +5,7 @@ public class SUV : IVehicle , ICompany
 {
     public int NumberOfWheels { get; set; }
     public string Color { get; set; }
+    public double EngineSize { get; set; }
     public string Model { get; set; }
     public int Year { get; set; }
 
